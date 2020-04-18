@@ -8,7 +8,7 @@
     <link href="public/style.css" rel="stylesheet">
     <script src="handlebars.min.js"></script>
     <script id="templateHB" type="text/x-handlebars-template">
-    {{each}}
+    {{#each instruments}}
     <article class="instrument">
           <img class="image" src={{this.image}} alt={{this.name}}>
           <section class="details">
@@ -43,7 +43,7 @@
 
     <article id="showcase">
       <section id="information" class="container">
-      <!-- handlebars template shows here -->
+
       </section>
     </article>
 
